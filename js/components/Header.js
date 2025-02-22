@@ -3,7 +3,8 @@ class Header {
     render() {
       return `
         <header class="header">
-          <h1>My Stock Insights</h1>
+          <h1>stockThots</h1>
+          <h3>A Ryan Ronish Production</h3>
         </header>
       `;
     }
