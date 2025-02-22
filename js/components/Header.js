@@ -4,7 +4,7 @@ class Header {
       return `
         <header class="header">
           <h1>stockThots</h1>
-          <h3>A Ryan Ronish Production</h3>
+          <h3>&copy; A Ryan Ronish Production</h3>
         </header>
       `;
     }
