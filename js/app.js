@@ -4,13 +4,13 @@
 
 document.addEventListener("DOMContentLoaded", () => {
     // Create instances
-    const navbar = new Navbar();
     const header = new Header();
+    const navbar = new Navbar();
     const footer = new Footer();
   
     // Inject the components into designated placeholders
-    document.getElementById('navbar').innerHTML = navbar.render();
     document.getElementById('header').innerHTML = header.render();
+    document.getElementById('navbar').innerHTML = navbar.render();
     document.getElementById('footer').innerHTML = footer.render();
   
     // Additional logic: for instance, loading Adsense scripts if needed
@@ -33,5 +33,5 @@ document.addEventListener("DOMContentLoaded", () => {
     const cardsContainer = document.getElementById("cards-container");
     cardsContainer.innerHTML = rsiCard.render() + macdCard.render();
 
-    
+
   });
